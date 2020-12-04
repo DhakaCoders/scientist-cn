@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('LatoRegular/LatoRegular.eot');
+    src: url('LatoRegular/LatoRegular.eot') format('embedded-opentype'),
+         url('LatoRegular/LatoRegular.woff2') format('woff2'),
+         url('LatoRegular/LatoRegular.woff') format('woff'),
+         url('LatoRegular/LatoRegular.ttf') format('truetype'),
+         url('LatoRegular/LatoRegular.svg#LatoRegular') format('svg');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneueregular';
+    src: url('helveticaneue/helveticaneue-webfont.woff2') format('woff2'),
+         url('helveticaneue/helveticaneue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'helveticaneuebold';
+    src: url('helveticaneubold/helvetica_neu_bold-webfont.woff2') format('woff2'),
+         url('helveticaneubold/helvetica_neu_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helveticaneuelight';
+    src: url('helveticaneuelight/helveticaneue_light-webfont.woff2') format('woff2'),
+         url('helveticaneuelight/helveticaneue_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'helveticaneuemedium';
+    src: url('helveticaneuemedium/helveticaneue_medium-webfont.woff2') format('woff2'),
+         url('helveticaneuemedium/helveticaneue_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'helveticaneueitalic';
+    src: url('helveticaneueit/helveticaneueit-webfont.woff2') format('woff2'),
+         url('helveticaneueit/helveticaneueit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

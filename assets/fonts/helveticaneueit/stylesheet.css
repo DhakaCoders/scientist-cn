@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'helveticaneueitalic';
+    src: url('helveticaneueit-webfont.woff2') format('woff2'),
+         url('helveticaneueit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

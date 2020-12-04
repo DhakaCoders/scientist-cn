@@ -1,0 +1,93 @@
+/*
+-----------------
+footer-wrp
+-----------------
+*/
+.footer-wrp{
+	padding: 40px 0;
+}
+/*.ftr-block-890{
+	max-width: 890px;
+	width: 100%;
+	margin: 0 auto;
+}*/
+.ftr-col-innr{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ftr-col-1{
+	width: 30%;
+	float: left;
+}
+.ftr-col-2{
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+.ftr-col-3{
+	width: 30%;
+	float: right;
+}
+.ftr-col-1 span {
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 12px;
+    line-height: 14px;
+    color: #969696;
+    position: relative;
+    padding: 10px 10px 10px 50px;
+}
+.ftr-col-1 span i{
+	display: inline-block;
+	vertical-align: baseline;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.ftr-col-2 span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 12px;
+	line-height: 14px;
+	color: #969696;
+	text-align: center;
+}
+.ftr-col-2 span a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: underline;
+	color: #969696;
+}
+.ftr-socail-icon{
+	float: right;
+}
+.ftr-socail-icon ul{
+	margin: 0 -5px;
+}
+.ftr-socail-icon ul li{
+	float: left;
+	padding: 0 5px;
+
+}
+.ftr-socail-icon ul li a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 17px;
+	background: #eaeaea;
+	color: #838685;
+	width: 31px;
+	height: 31px;
+	border-radius: 50px;
+}
+.ftr-socail-icon ul li a:hover{
+	color: #fff;
+	background:#e84a43; 
+}
