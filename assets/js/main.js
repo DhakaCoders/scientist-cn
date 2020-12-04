@@ -59,6 +59,11 @@ if (windowWidth <= 767) {
   $('.opener-inner').on('click', function(){
     $(this).toggleClass('menu-expend');
     $('nav.main-nav > ul').slideToggle(300);
+    $(this).parent().siblings('.toggle-menu-wrap').slideToggle(500);
+  });
+  $('nav.main-nav li.menu-item-has-children > a ').on('click', function(){
+    $(this).toggleClass('sub-menu-expend');
+    $('nav.main-nav li.menu-item-has-children > ul.sub-menu').slideToggle(300);
   });
 
 
